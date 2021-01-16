@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "891668971629",
+    "firebase_url": "https://watchman-39fbc.firebaseio.com",
+    "project_id": "watchman-39fbc",
+    "storage_bucket": "watchman-39fbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891668971629:android:c2759d636ea91645",
+        "android_client_info": {
+          "package_name": "project.estateWatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891668971629-4bfohkvh57ktac7aikkpsmhl4pgk7o8r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.estateWatch",
+            "certificate_hash": "08fe57677144903b004214bebef5a2b862bcbb2e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaYO6nueXLVsl9r2cVxkT1MCCt2dTa-_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891668971629-8hv4biu13ripvi5b6hr7b4qt9oter0pr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

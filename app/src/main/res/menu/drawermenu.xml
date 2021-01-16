@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/dMenuTop">
+        <item android:id="@+id/dMenu" android:title="Submit crime Report" android:icon="@drawable/ic_send_black_24dp"/>
+        <item android:id="@+id/missing" android:title="Missing Persons" android:icon="@drawable/ic_search_black_24dp"/>
+        <item android:id="@+id/track" android:title="Track Status" android:icon="@drawable/ic_remove_red_eye_black_24dp"/>
+        <item android:id="@+id/history" android:title="Crime Reports" android:icon="@drawable/ic_access_time_black_24dp"/>
+        <item android:id="@+id/feedback" android:title="Rate us" android:icon="@drawable/ic_stars_black_24dp"/>
+    </group>
+
+    <group android:id="@+id/menuBelow">
+        <item android:id="@+id/settings" android:title="Settings" android:icon="@drawable/ic_settings_black_24dp"/>
+      <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_exit" />
+    </group>
+</menu>

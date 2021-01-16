@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colordark"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watchman welcomes you"
+            android:textColor="#fff"
+            android:textSize="35sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:text="@string/home_text"
+            android:textSize="15sp"
+            android:layout_marginTop="25dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+
+            <Button
+                android:id="@+id/learn"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonstyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="learn"
+                android:text="Hotlines" />
+
+            <Button
+
+                android:id="@+id/joinus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/mybuttonstyle"
+                android:text="join us"
+                android:textColor="@color/primary_txt" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/thispassword"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:drawablePadding="10dp"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/mybuttonstyle"
+            android:drawableRight="@drawable/ic_send_black_24dp"
+            android:onClick="butn"
+            android:text="Login"
+            android:textColor="@color/primary_txt" />
+
+        <TextView
+            android:id="@+id/nrUsers"
+            android:layout_width="300dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="30dp"
+            android:clickable="true"
+            android:onClick="nrPhase"
+            android:text="Don't want to be registered? Click here!"
+            android:textColor="@color/colordark"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

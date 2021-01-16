@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/colorWhite"
+        tools:context=".crimesubmit"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colordark"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Be our ears and eyes"
+                android:textColor="#fff"
+                android:textAlignment="center"
+                android:textSize="35sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/date_pickers"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:drawablePadding="10dp"
+                android:inputType="date"
+                android:hint="Date" />
+
+
+            <Button
+                android:id="@+id/btnCapturers"
+                android:hint="capture image"
+                android:paddingTop="10dp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:drawableLeft="@drawable/ic_camera"
+                android:drawablePadding="10dp"
+                android:onClick="onClicks" />
+
+            <ImageView
+                android:id="@+id/captureHolds"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background"
+                />
+
+
+
+            <Button
+                android:paddingTop="10dp"
+                android:id="@+id/btnVideoCapturers"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:hint="capture video"
+                android:drawableLeft="@drawable/ic_videocam_black_24dp"
+                android:drawablePadding="10dp"
+                android:onClick="VideoonClicks" />
+
+            <VideoView
+                android:id="@+id/VideoCaptureHolds"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:src="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/sendReport"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/mybuttonstyle"
+                android:drawableRight="@drawable/ic_send_black_24dp"
+                android:text="Send"
+                android:onClick="butnSubmission"
+                android:textColor="@color/primary_txt" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

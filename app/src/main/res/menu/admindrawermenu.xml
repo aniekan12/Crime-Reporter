@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/MyTop">
+        <item android:id="@+id/dmenu" android:title="View Reports" android:icon="@drawable/ic_view"/>
+        <item android:id="@+id/missing" android:title="Missing Persons Reports" android:icon="@drawable/missingpersons"/>
+        <item android:id="@+id/amber" android:title="Issue Amber Alert" android:icon="@drawable/sendalert"/>
+        <item android:id="@+id/history" android:title="View Crime Analysis" android:icon="@drawable/ic_grpa"/>
+    </group>
+
+    <group android:id="@+id/MyBelow">
+        <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_exit"/>
+    </group>
+</menu>

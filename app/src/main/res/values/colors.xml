@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary_txt">#212121</color>
+    <color name="colorWhite">#cccccc</color>
+    <color name="colordark">#23283a</color>
+    <color name="colorBlue">#ADD8E6</color>
+    <color name="colorGrey">#808080</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="Iridium">#3D3C3A</color>
+    <color name="platinum">#E5E4E2</color>
+
+</resources>
